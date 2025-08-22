@@ -12,9 +12,9 @@ The primary goal is to identify the key factors that contribute to flight delays
 ## Project Structure
 united-states-airlines-analysis/
 ├── United States Airlines.ipynb         # Main Jupyter Notebook for analysis
-├── Airlines.csv                         # Raw data: Hospitalization details
-├── airports.csv                         # Raw data: Medical examination records
-├── Data Dictionary.xlsx                 # Raw data: Customer names and IDs
+├── Airlines.csv                         # Raw data: Airlines details
+├── airports.csv                         # Raw data: airports records
+├── Data Dictionary.xlsx                 # Raw data: Data Dictionary of Airlines and airports 
 ├── delay at airports with many runways.sql    # SQL script (example)
 ├── Delays by airline.sql                      # SQL script (example)
 ├── delays by airport elevation.sql      # SQL script (example)
@@ -31,7 +31,7 @@ To run this project, you will need:
 
 ### Installation
 1. Clone the repository:
-   ```bash
+   ``bash
    git clone https://github.com/prakhar845/united-states-airlines-analysis.git
    cd united-states-airlines-analysis
 
@@ -48,28 +48,21 @@ To run this project, you will need:
 
 ### Running the Analysis
 1. Ensure your virtual environment is active.
-
 2. **Launch Jupyter Notebook:**
    jupyter notebook
-
 3. In the Jupyter interface, open United States Airlines.ipynb.
-
 4. Run all cells in the notebook to execute the data pre-processing, feature engineering, visualizations, hypothesis tests, and machine learning model development.
 
 ## Datasets
-
 This project utilizes a combination of structured data files and external data scraped from the web.
 
 ### Core Datasets
 **Airlines.xlsx:** The main flight dataset containing information on individual flights, including airline, origin, destination, timing, and a binary Delay indicator.
-
 **airports.xlsx:** Detailed information about each airport, including its type, name, location (latitude/longitude), and elevation.
-
 **runways.xlsx:** Contains specifics for each runway at the airports, such as length, width, and surface type.
 
 ### External Data Sources
 **Airline Founding Information:** Scraped from the List of airlines of the United States Wikipedia page to determine the operational experience of each airline.
-
 **Airport Passenger Traffic:** Scraped from the List of the busiest airports in the United States Wikipedia page to classify airports as large or medium hubs.
 
 ## Project Tasks
@@ -115,7 +108,7 @@ Load the final dataset into a SQL database.
 4. A comparison of delays at airports with above-average vs. below-average elevation.
 
 ### Tableau Dashboard:
-Create a compelling and interactive dashboard in Tableau.Focus on data storytelling to present key findings and insights to business stakeholders in a clear and actionable format.
+Create a compelling and interactive dashboard in Tableau. Focus on data storytelling to present key findings and insights to business stakeholders in a clear and actionable format.
 
 ## Contributing
 Contributions are welcome! If you have suggestions for improvements, new analysis ideas, or bug fixes, please:
