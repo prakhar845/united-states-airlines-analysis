@@ -21,6 +21,8 @@ united-states-airlines-analysis/
 ├── delays by day of week.sql            # SQL script (example)
 ├── .gitignore                           # Git ignore file
 └── README.md                            # Project README
+└── requirements.txt                     # Project dependencies
+
 
 ## Getting Started
 
